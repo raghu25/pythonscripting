@@ -13,3 +13,9 @@ finalscript.py is a secure copy implementation from scp module and paramiko to s
 runs for every minute (can change the frequency of executing time as required)
 crontab:
 */1 * * * * cd /home/ra/Desktop/ && /usr/bin/python finalscript.py 2>&1
+-----------------------------------------------------------------------------
+
+working_with_files folder contains file parsing scripts using python
+
+
+
