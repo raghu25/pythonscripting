@@ -1,5 +1,5 @@
 '''
-this script generates 4 text files for when the text file "inp.txt" is given as an input. Each files content is divided at the delimiter '******' of the original file 'inp.txt'.
+this script generates 4 text files when the text file "inp.txt" is given as an input. Each file's content is divided at the delimiter '******' of the original file 'inp.txt'.
 '''
 # opening the file
 with open('inp.txt') as fo:
