@@ -4,7 +4,7 @@ this script generates 4 text files for when the text file "inp.txt" is given as 
 # opening the file
 with open('inp.txt') as fo:
 # reading the file
-	fs=fo.read().split("\n") # output is list with number of rows as elements and every element in the list it data in a specific row
+	fs=fo.read().split("\n") # output is list with number of rows as elements and every element in the list is data in a specific row
 	op=''
 	start=0
 	counter=1 # to name the files generated seperately
