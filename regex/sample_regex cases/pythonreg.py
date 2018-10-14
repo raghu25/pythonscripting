@@ -14,5 +14,6 @@ table=PrettyTable(["ip address","mac address","Interface"])
 #matches is an object which we can iterate through
 matches = pattern.finditer(sentence)
 for x in matches:
+    #group() attribute is called on iterator  object to get the required fields to the standard output
     table.add_row([x.group(1),x.group(2),x.group(3)])
 print(table)		
