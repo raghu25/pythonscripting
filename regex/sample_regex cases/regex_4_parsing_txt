@@ -6,10 +6,10 @@ Address            Age         Hardware Addr          State        Type      Int
 68.66.72.97      00:07:12     d4:c6:50:49:42:84       Interface    ARPA      Gi2/1/4
 
 
-if the above arp table is given. The regular expression to get ip address and mac address is by grouping:
+if the above arp table is given. The regular expression to get ip address, mac address and the interface is by grouping:
 ((?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])).*((?:[a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}).*
 
-the using match group(1) group(2) in python only ip address and mac address columns can be extracted
+by using match group(1) group(2) group(3) in python only the required ip address, mac address, interfaces columns can be extracted
 
 
 
