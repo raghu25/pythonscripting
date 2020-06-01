@@ -2,7 +2,7 @@ import os,re
 
 path = r"C:\Users\raghu\Desktop\testing"
 res=[]
-fres=[]
+fres=se()
 
 for rootdir, subdir, files  in os.walk(path, topdown=True):   
 	for file in files:
@@ -23,11 +23,12 @@ def validIPAddress(IP):
 		 
 		 
       
-res.sort()
+
 for x in res:
 	validIPAddress(x)
 
-	
+fres=list(fres)
+fres.sort()
 for y in fres:
     print(y)
 
