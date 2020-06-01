@@ -2,7 +2,7 @@ import os,re
 
 path = r"C:\Users\raghu\Desktop\testing"
 res=[]
-fres=se()
+fres=set()
 
 for rootdir, subdir, files  in os.walk(path, topdown=True):   
 	for file in files:
