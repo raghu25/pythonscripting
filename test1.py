@@ -15,6 +15,7 @@ for rootdir, subdir, files  in os.walk(path, topdown=True):
 				res.append(i)
 				
 def validIPAddress(IP):
+ 	'''Validating IPv4 address'''
       def isIPv4(s):
          try: return str(int(s)) == s and 0 <= int(s) <= 255
          except: return False
